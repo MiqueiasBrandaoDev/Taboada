@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+body{
+    background-image: linear-gradient(to right, #8900ab, #0900ab);
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title{
+    color: #fff;
+    margin: 25px 0;
+}
+
+#card-header{
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-form{
+    flex-direction: column;
+    width: 50%;
+}
+
+.row-form label{
+    font-size: 15px;
+}
+
+.row-form input{
+    margin: 10px auto;
+    width: 90px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+form .btn-calc{
+    margin: 15px auto;
+    padding: 7px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+form .btn-calc:hover{
+    border: none;
+    background-color: #0900ab;
+    color: #fff;
+}
+
+#card-body{
+    margin: 15px auto;
+    background-color: #ffffff;
+    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+}
+
+table td{
+    padding: 7px 50px;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+.hide{
+    display: none;
+}
+
+#input-empty{
+    font-size: 13px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    transition: 0.5s;
+}
+
+#footer{
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    color: #ffffffba;
+    margin-top: 20px;
+    font-size: 15px;
+    border: solid 1px #ffffffba;
+    width: 350px;
+    border-radius: 10px;
+    padding: 5px;
+    transition: .5s;
+}
+
+svg{
+    width: 100%;
+}
+
+#footer:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: .5s;
+}
+
+a{
+    text-decoration: none;
+}
